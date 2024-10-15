@@ -1,0 +1,159 @@
+.container1{
+    width: 70%;
+    background-color: burlywood;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+/* div adalah shorcut dari grouping box 1-4 */
+.container1 div{
+    width: 15%;
+    height: 100px;
+    background-color: brown;
+    margin: 2px;
+}
+.container2{
+    width: 70%;
+    background-color: burlywood;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.container2 div{
+    width: 15%;
+    height: 100px;
+    background-color: brown;
+    margin: 2px;
+}
+.container3{
+    width: 70%;
+    background-color: burlywood;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.container3 div{
+    width: 15%;
+    height: 100px;
+    background-color: brown;
+    margin: 2px;
+}
+.container4{
+    width: 70%;
+    background-color: burlywood;
+    margin: auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.container4 div{
+    width: 15%;
+    height: 100px;
+    background-color: brown;
+    margin: 2px;
+}
+.container5{
+    width: 70%;
+    background-color: burlywood;
+    margin: auto;
+    display: flex;
+}
+.container5 div{
+    width: 15%;
+    height: 100px;
+    background-color: brown;
+    margin: 2px;
+}
+/* flex wrap untuk memindahkan ke baris bawah kontainer yang berlebih */
+.container6{
+    width: 70%;
+    background-color: plum;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container6 div{
+    width: 15%;
+    height: 100px;
+    background-color: purple;
+    margin: 2px;
+}
+/* justify content untuk merapikan letak kategori flex wrap */
+.container7{
+    width: 70%;
+    background-color: gold;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container7 div{
+    width: 15%;
+    height: 100px;
+    background-color: coral;
+    margin: 2px;
+}
+.container8{
+    width: 70%;
+    background-color: gold;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* meskipun justify content banyak namun yang dipanggil terakhir kali yang berfungsi */
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.container8 div{
+    width: 15%;
+    height: 100px;
+    background-color: coral;
+    margin: 2px;
+}
+/* justify content + align items */
+.container9{
+    width: 600px;
+    height: 600px;
+    background-color: greenyellow;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.container9 div{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin: 2px;
+}
+/* justify content + align items + align content */
+.container10{
+    width: 600px;
+    height: 600px;
+    background-color: skyblue;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.container10 div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(112, 112, 233);
+    margin: 2px;
+}
+/* mengubah urutan box dengan order */
+.box1{
+    order: 2;
+}
+.box2{
+    order: 4;
+}
+.box3{
+    order: 1;
+}
+.box4{
+    order: 3;
+}
+/* dst */

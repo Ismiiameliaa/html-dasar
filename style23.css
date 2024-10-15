@@ -1,0 +1,94 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 70%;
+    background-color: white;
+    margin: auto;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between
+}
+.nav{
+    display: flex;
+    background-color: rgb(216, 213, 213);
+    align-items: center;
+    margin: 0px;
+}
+ul li{
+    display: inline;
+}
+ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+a:hover{
+    background-color: gold;
+}
+.main{
+    width: 100%;
+    height: 350px;
+    float: none;
+}
+.content1{
+    flex-grow: 2;
+    float: left;
+}
+.box{
+    width: 100%;
+    height: 300px;
+    margin: 0;
+}
+.box img{
+    width: 100%; /* Memastikan gambar menyesuaikan dengan lebar box */
+    height: 300px; /* Mempertahankan rasio aspek gambar */
+}
+.content2{
+    flex-grow: 1;
+    display: inline-flex;
+    margin-left: 250px;
+}
+.nav2{
+    align-items: center;
+    margin: 0px;
+    width: 100%;
+    height: 350px;
+    display: inline;
+}
+.fasilitas{
+    display: inline;
+}
+.fasilitas li a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    display: flex;
+}
+.footer{
+    background-color: gold;
+    padding: 5px;
+}
+.footer h4, h5{
+    padding-left: 100px;
+    margin: 10px;
+}
+.footer h6{
+    padding-top: 5px;
+}
+.icon1, .icon2, .icon3, .icon4{
+    display: inline-flex;
+    margin-top: 0; /* Mengubah jarak dari atas */
+    margin-left: 500px; /* Mengubah jarak dari kiri */
+    position: relative; /* Atau absolute jika perlu */
+    bottom: 190px; /* Menggeser ke atas */
+    left: 50px; /* Menggeser ke kanan */
+}
+.clear{
+    clear: left; */
+}

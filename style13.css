@@ -1,0 +1,17 @@
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    padding: 20px;
+    margin: 10px;
+}
+.box2{
+    /* fungsi boxsizing agar konsisten ukuran box pada tiap kategori karena padding, border, merubah ukuran tampilan box dengan menambah size*/
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px;
+    box-sizing: border-box;
+}

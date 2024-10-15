@@ -1,0 +1,36 @@
+.container{
+    width: 90%;
+    height: 1200px;
+    background-color: bisque;
+    margin: auto;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6{
+    height: 100px;
+    width: 100px;
+}
+.box1{
+    background-color: aqua;
+}
+/* CONTOH RELATIVE */
+.box2{
+    background-color: blue;
+    position: relative;
+    left: 120px;
+    top: 100px;
+}
+.box3{
+    background-color: blueviolet;
+}
+/* CONTOH ABSOLUTE */
+.box4{
+    background-color: goldenrod;
+    position: absolute;
+    left: 120px;
+    top: 10px;
+}
+/* CONTOH FIXED TIDAK BERGERAK MESKIPUN DISCROLL*/
+.box5{
+    background-color: purple;
+    position: fixed;
+}

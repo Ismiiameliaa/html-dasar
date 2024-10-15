@@ -1,0 +1,19 @@
+h2{
+    color: red;
+}
+
+.judul2{
+    /* CLASS MENGGUNAKAN TANDA TITIK */
+    color: brown;
+}
+.artikel2{
+    color: aquamarine;
+}
+
+#judul3{
+    /* ID MENGGUNAKAN TANDA # */
+    color: blueviolet;
+}
+#artikel3{
+    color: darkblue;
+}

@@ -1,0 +1,36 @@
+body{
+    background-image: url(../PANNIKIANG.jpg);
+    /* MENYESUAIKAN UKURAN BG */
+    background-size: cover;
+    height: 1000px;
+    /* AGAR BG TIDAK BERULANG */
+    background-repeat: no-repeat;
+    /* BG DIAM SAAT DI SCROLL */
+    background-attachment: fixed;
+}
+.container{
+    width: 40%;
+    height: 200%;
+    background-color: white;
+    background-size: cover;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid black;
+}
+input,a{
+    display: block;
+    margin-top: 10px;
+}
+.ul1 li{
+    display: inline;
+    background-color: brown;
+    /* INLINE TIDAK AKAN BERPENGARUH PADA LEBAR DAN TINGGI */
+    height: 200px;
+    width: 100px;
+}
+.ul2 li{
+    display: inline-block;
+    background-color: blue;
+    height: 200px;
+    width: 100px;
+}

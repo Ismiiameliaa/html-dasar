@@ -1,0 +1,20 @@
+h2{
+    /* BANYAK FORMAT GARIS YANG DAPAT DIGUNAKAN MISALNYA GARIS BAWAH ATAS DAN TENGAH */
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    /* MENGUBAH WARNA KETIKA KURSOR DIARAHKAN */
+    color: red;
+}
+a:active{
+    /* WARNA BERUBAH KETIKA DI KLIK TAHAN. jarang digunakan, hanya hover */
+    color: green;
+}
+a:visited{
+     /* WARNA BERUBAH KETIKA MENGUNJUNGI LINK. jarang digunakan, hanya hover */
+    color: yellow;
+}

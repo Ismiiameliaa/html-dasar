@@ -1,0 +1,8 @@
+.p1{
+    /* MEMBERIKAN JARAK ANTAR BARIS */
+    line-height: 40px;
+}
+.p2{
+    /* MENGGESERKAN BARIS PERTAMA PADA PARAGRAF */
+    text-indent: 40px;
+}

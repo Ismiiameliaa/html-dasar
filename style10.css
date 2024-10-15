@@ -1,0 +1,94 @@
+/* UNTUK MENGHAPUS PADDING DEFAULT HTML */
+*{
+    /* BIAR RAPAT KE KIRI KESELURUHAN BISA * ATAU body */
+    margin: 0px;
+}
+
+p{
+    /* MERAPATKAN TIAP TEKS */
+    margin: 0px;
+}
+.p1{
+    /* MEMBERIKAN RUANG PADA SISI TEKS */
+    background-color: antiquewhite;
+    width: 200px;
+    height: 200px;
+    /* INGIN MEMBERIKAN JARAK TEKS DENGAN KOTAK DALAM BAGIAN KIRI */
+    padding: 20px;
+}
+.p2{
+    background-color: purple;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10;
+}
+.p3{
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    /* MEMBERIKAN JARAK ANTAR KOTAK LUAR PADA TEKS */
+    margin: 20px;
+}
+.p4{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    /* MEMBERIKAN JARAK ANTAR KOTAK LUAR PADA TEKS */
+    margin: auto;
+}
+.p5, .p6{
+    background-color: blue;
+    width: 30%;
+    padding: 30px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.p7, .p8{
+    background-color: peru;
+    width: 30%;
+    padding: 30px;
+    margin: auto;
+}
+.p9, .p10{
+    background-color: gray;
+    width: 30%;
+    border: 1px solid black;
+}
+.p11{
+    background-color: slateblue;
+    width: 30%;
+    border: 1px solid black;
+    float: left;
+    margin: 10px;
+}
+.p12{
+    background-color: slateblue;
+    width: 30%;
+    border: 1px solid black;
+    float: right;
+    margin: 10px;
+}
+.p13{
+    width: 30%;
+    background-color: brown;
+    padding: 10px;
+    margin-top: 10px;
+}
+.p14{
+    width: 30%;
+    background-color: brown;
+    padding: 10px;
+    margin-top: 10px;
+}
+.p15{
+    width: 30%;
+    background-color: brown;
+    padding: 10px;
+    margin-top: 10px;
+}
+.container{
+    margin: 120px;
+    display: flex;
+}

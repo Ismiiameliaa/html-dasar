@@ -1,0 +1,18 @@
+.nav{
+    width: 900px;
+    background-color: gold;
+    margin: auto;
+}
+ul li{
+    display: inline-block;
+    padding: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+a:hover{
+    background-color: brown;
+}
